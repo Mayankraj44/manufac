@@ -48,7 +48,7 @@ export function calculateMode(dataset) {
     .map((item) => item[0]);
 
   if (resultant.length > 1) {
-    return "Not found";
+    return "More then 1 Mode";
   }
 
   return resultant;
