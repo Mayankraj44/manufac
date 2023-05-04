@@ -4,3 +4,5 @@ export const rowFlavanoids = [
   "Flavanoids Median",
   "Flavanoids Mode",
 ];
+
+export const rowGamma = ["Measure", "Gamma Mean", "Gamma Median", "Gamma Mode"];

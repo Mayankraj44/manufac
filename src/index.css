@@ -16,6 +16,7 @@ code {
 }
 .cell {
   padding: 10px;
+  min-width: 100px;
   border: 1px solid black;
 }
 .values {

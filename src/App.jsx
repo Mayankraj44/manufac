@@ -1,12 +1,7 @@
 import { useEffect, useState } from "react";
 import Table from "./components/Table";
-import { rowFlavanoids } from "./utils/CONST";
-import {
-  calculateMean,
-  calculateMedian,
-  calculateMode,
-  filterDataIntoCategory,
-} from "./utils/helper.js";
+import { rowFlavanoids, rowGamma } from "./utils/CONST";
+import { filterDataIntoCategory } from "./utils/helper.js";
 import wineData from "./utils/wineData.json";
 
 function App() {
@@ -16,7 +11,6 @@ function App() {
     setData(newdata);
   }, []);
 
-  const rowGamma = ["Measure", "Gamma Mean", "Gamma Median", "Gamma Mode"];
   function calculateGamma(item) {
     return Number(
       (
